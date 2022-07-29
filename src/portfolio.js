@@ -12,20 +12,19 @@ const projects = [
       livePreview: 'https://ameer-mushani.github.io/flappy-brain/',
     },
     {
-      name: 'Project 2',
+      name: 'Spikes',
       description:
-        'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-      stack: ['SASS', 'TypeScript', 'React'],
-      sourceCode: 'https://github.com',
-      livePreview: 'https://github.com',
+        'Fully playable game developed with object oriented concepts. Implements custom physics and collision detection.',
+      stack: ['OOP', 'Physics', 'Collision Detection'],
+      sourceCode: 'https://github.com/Ameer-Mushani/spikes',
+      livePreview: 'https://ameer-mushani.github.io/spikes/',
     },
     {
-      name: 'Project 3',
+      name: 'MyShell',
       description:
-        'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-      stack: ['SASS', 'TypeScript', 'React'],
-      sourceCode: 'https://github.com',
-      livePreview: 'https://github.com',
+        'Bash shell built from scratch in C. Implements basic commands such as ls, cd, pwd, and more. Supports background processes and piping',
+      stack: ['C', 'Linux', 'Multi-threading'],
+      sourceCode: 'https://github.com/Ameer-Mushani/myShell',
     },
   ]
 
