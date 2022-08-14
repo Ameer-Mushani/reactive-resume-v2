@@ -34,7 +34,7 @@ const resume = [
       subtitle: 'University of Guelph, Robotics Institute',
       date: 'May 2022 - August 2022',
       description: 'Developed a full stack project to display data collected by one of the lab\'s robots. Over a four month period I developed a display for parameterized statistics on a Leaflet map, FastAPI endpoints connected to a SQL database and deployed the entire project to AWS.',
-      stack: ['Vue.js', 'FastAPI', 'PostgreSQL', 'Docker', 'AWS'],
+      stack: ['Vue.js', 'FastAPI', 'PostgreSQL', 'Docker', 'AWS EC2 & Amplify'],
       image: 'robotics_institute_logo.png',
    },
    {
@@ -42,7 +42,7 @@ const resume = [
       type: 'work',
       subtitle: 'Competers Inc, Guelph',
       date: 'June 2020 - December 2020',
-      description: 'Worked on all aspects of our stacks to provide software with consitent uptime and improvements to over 500+ daily users.',
+      description: 'Worked on all aspects of our stacks to provide software with consitent uptime and improvements to over 500+ daily users. Wrote modular functions for a main program Utilocate, developed a login page in Angular connected to an AWS endpoint to interface with our MySQL databse for authentication and user management.',
       stack: ['VB.NET', 'Angular', 'MySQL', 'AWS Lambda', 'Typescript'],
       image: 'competers_logo.png',
    },
