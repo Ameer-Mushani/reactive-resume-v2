@@ -39,10 +39,10 @@ const About = () => {
          </h2>
          <div className="links">
             <a href="https://github.com/Ameer-Mushani" className="link">
-               <GitHubIcon />
+               <GitHubIcon fontSize="large"/>
             </a>
             <a href="https://www.linkedin.com/in/ameer-mushani/" className="link">
-               <LinkedInIcon />
+               <LinkedInIcon fontSize="large"/>
             </a>
          </div>
       </div>
