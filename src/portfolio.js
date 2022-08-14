@@ -42,7 +42,7 @@ const resume = [
       type: 'work',
       subtitle: 'Competers Inc, Guelph',
       date: 'June 2020 - December 2020',
-      description: 'Worked on all aspects of our stacks to provide software with consitent uptime and improvements to over 500+ daily users. Wrote modular functions for a main program Utilocate, developed a login page in Angular connected to an AWS endpoint to interface with our MySQL databse for authentication and user management.',
+      description: 'Worked on all aspects of our stacks to provide software with consitent uptime and improvements to over 500+ daily users. Wrote modular functions for a main program Utilocate, developed a pages in Angular connected to AWS endpoints to interface with our MySQL databse for authentication and user management.',
       stack: ['VB.NET', 'Angular', 'MySQL', 'AWS Lambda', 'Typescript'],
       image: 'competers_logo.png',
    },
@@ -59,7 +59,7 @@ const resume = [
       title: 'Forest Height Collegiate Insitute',
       type: 'education',
       subtitle: '',
-      date: 'September 2014 - June 2019',
+      date: 'September 2015 - June 2019',
       description: 'In high school I started my developer journey by learning to code in Processing, a subset of Java. I learned the pillars of OOP by designing games with modular classes and finished my grade 12 year by devloping an Android app. \n\n I was the valedictorian of my high school class and gave a speech to over 500 students and parents.',
       stack: [],
       image: 'mepog.jpg'

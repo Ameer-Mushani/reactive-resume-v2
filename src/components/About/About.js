@@ -2,6 +2,7 @@ import Image from "react-bootstrap/Image";
 import Typewriter from "typewriter-effect";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
 import './About.css'
 const About = () => {
    return (
@@ -38,10 +39,13 @@ const About = () => {
          </h2>
          <div className="links">
             <a href="https://github.com/Ameer-Mushani" className="link">
-               <GitHubIcon fontSize="large"/>
+               <GitHubIcon fontSize="large" />
             </a>
             <a href="https://www.linkedin.com/in/ameer-mushani/" className="link">
-               <LinkedInIcon fontSize="large"/>
+               <LinkedInIcon fontSize="large" />
+            </a>
+            <a href="mailto:ameermushani@gmail.com" className="link">
+               <EmailIcon fontSize="large" />
             </a>
          </div>
       </div>
