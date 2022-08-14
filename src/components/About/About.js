@@ -3,12 +3,11 @@ import Typewriter from "typewriter-effect";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import './About.css'
-import profilepic from "../../assets/profilepic.jpg";
 const About = () => {
    return (
       <div className="about">
          <Image
-            src={profilepic}
+            src={window.location.origin + '/profilepic.jpg'}
             fluid
             roundedCircle
             style={{ margInTop: "100px", width: "50vmin" }}

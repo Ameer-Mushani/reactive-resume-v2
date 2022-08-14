@@ -1,3 +1,9 @@
 .vertical-timeline-element-date {
    color: #fff;
 }
+.logo-image{
+   margin-top: 1.5em;
+}
+.resume-desc {
+   white-space: pre-wrap;
+}
