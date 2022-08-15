@@ -4,3 +4,10 @@
 .about {
     margin: 10em;
 }
+.Typewriter {
+    user-select: none;
+}
+.about .btn--outline {
+    margin-right: 1em;
+    background-color: rgb(13, 110, 253);
+}

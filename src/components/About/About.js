@@ -13,7 +13,7 @@ const About = () => {
             roundedCircle
             style={{ margInTop: "100px", width: "50vmin" }}
          />
-         <h1 style={{ color: 'white' }}>Ameer Mushani</h1>
+         <h1 style={{ color: 'white', userSelect: 'none' }}>Ameer Mushani</h1>
          <h2 style={{ color: 'white' }}>
             <Typewriter
                options={{
@@ -38,6 +38,11 @@ const About = () => {
             />
          </h2>
          <div className="links">
+            <a href={window.location.origin  + "/Ameer_Mushani_Resume.pdf"} >
+               <span type='button' className='btn btn--outline'>
+                  Resume
+               </span>
+            </a>
             <a href="https://github.com/Ameer-Mushani" className="link">
                <GitHubIcon fontSize="large" />
             </a>
