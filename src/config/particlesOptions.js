@@ -5,7 +5,7 @@ export const particlesOptions ={
     },
     "particles": {
         "number": {
-            "value": 160,
+            "value": 211,
             "density": {
                 "enable": true,
                 "value_area": 800
@@ -46,7 +46,7 @@ export const particlesOptions ={
         },
         "move": {
             "enable": true,
-            "speed": 1,
+            "speed": 1.5,
             "direction": "none",
             "random": true,
             "straight": false,
@@ -61,10 +61,10 @@ export const particlesOptions ={
     },
     "interactivity": {
         "events": {
-            "onhover": {
-                "enable": true,
-                "mode": "bubble"
-            },
+            // "onhover": {
+            //     "enable": true,
+            //     "mode": "repulse"
+            // },
             "onclick": {
                 "enable": true,
                 "mode": "repulse"
@@ -86,8 +86,8 @@ export const particlesOptions ={
                 "speed": 3
             },
             "repulse": {
-                "distance": 400,
-                "duration": 0.4
+                "distance": 250,
+                "duration": 2.5
             },
             "push": {
                 "particles_nb": 4

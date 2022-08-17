@@ -13,7 +13,7 @@ const About = () => {
             roundedCircle
             style={{ margInTop: "100px", width: "50vmin" }}
          />
-         <h1 style={{ color: 'white', userSelect: 'none' }}>Ameer Mushani</h1>
+         <h1 style={{ color: 'white', userSelect: 'none', marginTop: "1em" }}>Ameer Mushani</h1>
          <h2 style={{ color: 'white' }}>
             <Typewriter
                options={{
