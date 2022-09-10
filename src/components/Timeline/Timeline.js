@@ -6,6 +6,7 @@ import { resume } from '../../portfolio';
 import './Timeline.css';
 import uniqid from 'uniqid';
 import Image from 'react-bootstrap/Image';
+import { Link } from 'react-router-dom';
 const Timeline = () => {
    return (
       <VerticalTimeline>
@@ -23,6 +24,8 @@ const Timeline = () => {
                <p className='resume-desc'>{resumeItem.description}</p>
                <p>{resumeItem.stack.join(', ')}</p>
                { resumeItem.image !== 'null' ? <Image className="logo-image" src={window.location.origin + '/' + resumeItem.image} fluid /> : null}
+               <br/>
+               { resumeItem.report ? <Link to={resumeItem.report}>Work Term Report</Link> : null}
             </VerticalTimelineElement>
          ))}
       </VerticalTimeline>
