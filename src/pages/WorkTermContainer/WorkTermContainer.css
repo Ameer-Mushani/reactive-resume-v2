@@ -1,0 +1,39 @@
+.workterm {
+    padding: 2em;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s linear;
+   background-color: white;
+  }
+  
+  /* .workterm:hover {
+    transform: translateY(-7px);
+  } */
+  
+  .workterm__description {
+    margin-top: 1em;
+    white-space: pre-wrap;
+  }
+  
+
+  .workterm__stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1.2em 0;
+  }
+  
+  .workterm__stack-item {
+    margin-left: 1.5em;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: var(--clr-fg-alt);
+  }
+ 
+ 
+  
+  .workterm .link--icon {
+    margin-left: 0.5em;
+  }
+  
