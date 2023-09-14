@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Competers from './pages/competers/competers';
 import Robotics from './pages/robotics/robotics';
+import SAP from './pages/sap/sap';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
          <Route path="/" element={<App/>} />
          <Route path="/competers" element={<Competers/>} />
          <Route path="/robotics" element={<Robotics/>} />
+         <Route path="/sap" element={<SAP/>} />
       </Routes>
       </BrowserRouter>
    </React.StrictMode>

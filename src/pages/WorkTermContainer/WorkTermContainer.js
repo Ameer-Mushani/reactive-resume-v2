@@ -1,10 +1,12 @@
 import './WorkTermContainer.css'
+import Image from 'react-bootstrap/Image';
 
 const WorkTermContainer = ({ workterm }) => (
   <div className='workterm'>
     <h3>{workterm.company}</h3>
 
     <p className='workterm__description'>{workterm.description}</p>
+    { workterm.image !== 'null' ? <Image className="logo-image" src={window.location.origin + '/' + workterm.image} fluid /> : null}
     {/* {project.stack && (
       <ul className='project__stack'>
         {project.stack.map((item) => (
