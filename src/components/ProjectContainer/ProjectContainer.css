@@ -25,6 +25,7 @@
   
   .project__stack-item {
     margin-left: 1.5em;
+    margin-right: 1.5em;
     font-weight: 500;
     font-size: 0.8rem;
     color: var(--clr-fg-alt);
@@ -35,4 +36,6 @@
   .project .link--icon {
     margin-left: 0.5em;
   }
+
+
   

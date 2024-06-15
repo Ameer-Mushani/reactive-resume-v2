@@ -12,12 +12,12 @@ const projects = [
         livePreview: 'https://ameer-mushani.github.io/flappy-brain/',
     },
     {
-        name: 'Spikes',
+        name: 'DJ Z',
         description:
-            'Fully playable game developed with object oriented concepts. Implements custom physics and collision detection.',
-        stack: ['OOP', 'Physics', 'Collision Detection'],
-        sourceCode: 'https://github.com/Ameer-Mushani/spikes',
-        livePreview: 'https://ameer-mushani.github.io/spikes/',
+            'Discord bot developed in Python capable of playing a YouTube video via URL. Uses Discord\'s application commands API. ',
+        stack: ['Python', 'Discord.py', 'Dicord Developer API'],
+        sourceCode: 'https://github.com/Ameer-Mushani/DJZ',
+        livePreview: 'https://medium.com/stackademic/how-to-create-a-music-bot-using-discord-py-and-slash-commands-e3c0a0f92e53',
     },
     {
         name: 'MyShell',
