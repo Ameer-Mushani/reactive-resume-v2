@@ -3,6 +3,7 @@ import Typewriter from "typewriter-effect";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
+import CollectionsBookmarkIcon from '@mui/icons-material/CollectionsBookmark';
 import './About.css'
 const About = () => {
    return (
@@ -48,6 +49,9 @@ const About = () => {
             </a>
             <a href="https://www.linkedin.com/in/ameer-mushani/" className="link">
                <LinkedInIcon fontSize="large" />
+            </a>
+            <a href="https://medium.com/@ameermushani" className="link">
+                <CollectionsBookmarkIcon fontSize="large" />
             </a>
             <a href="mailto:ameermushani@gmail.com" className="link">
                <EmailIcon fontSize="large" />
